@@ -1,13 +1,32 @@
-📊 Instagram Data Analysis
-📌 Overview
+# 📊 Instagram Data Analysis  
 
-This project analyzes an Instagram dataset to understand what drives engagement on posts.
-The goal is to explore how different factors (likes, impressions, saves, shares, hashtags, explore reach, etc.) affect post performance and help improve Instagram strategy.
+## 📌 Overview  
+This project analyzes an **Instagram dataset** to understand what drives engagement on posts.  
+The main goal is to explore how different factors — **likes, impressions, saves, shares, hashtags, explore reach** — affect post performance and help improve Instagram strategy.  
 
-⚙️ Analysis Process
+---
 
-Data Cleaning → removed duplicates and checked for missing values.
+## ⚙️ Analysis Process  
+1. **Data Cleaning** 🧹  
+   - Removed duplicates (17 found).  
+   - Checked and handled missing values.  
 
-Feature Engineering → added engagement rate, caption length, save-to-like ratio, and source ratios (Home, Explore, Hashtags, Other).
+2. **Feature Engineering** 🏗️  
+   - Added **Engagement Rate** (interaction relative to impressions).  
+   - Added **Caption Length**.  
+   - Created **Save-to-Like ratio**.  
+   - Calculated **Source Ratios** (Home, Explore, Hashtags, Other).  
 
-Exploratory Data Analysis → used visualizations and correlations to answer key business questions.
+3. **Exploratory Data Analysis** 📈  
+   - Used **correlation analysis** and **visualizations** (scatter plots, heatmaps, bar charts).  
+   - Answered 17 key questions about Instagram performance.
+   - 
+---
+
+## 🛠️ Tools Used  
+- **Python** 🐍  
+- **Pandas** & **NumPy** → Data cleaning & manipulation  
+- **Matplotlib**, **Seaborn**, **Plotly** → Visualization  
+- **Jupyter Notebook** → Interactive analysis  
+
+---
