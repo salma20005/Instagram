@@ -9,19 +9,22 @@ The main goal is to explore how different factors — **likes, impressions, save
 ## ⚙️ Analysis Process  
 1. **Data Cleaning** 🧹  
    - Removed duplicates (17 found).  
-   - Checked and handled missing values.  
+   - Checked and handled missing values.
 
 2. **Feature Engineering** 🏗️  
    - Added **Engagement Rate** (interaction relative to impressions).  
    - Added **Caption Length**.  
    - Created **Save-to-Like ratio**.  
-   - Calculated **Source Ratios** (Home, Explore, Hashtags, Other).  
+   - Calculated **Source Ratios** (Home, Explore, Hashtags, Other).        
 
-3. **Exploratory Data Analysis** 📈  
-   - Used **correlation analysis** and **visualizations** (scatter plots, heatmaps, bar charts).  
-   - Answered 17 key questions about Instagram performance.
-   - 
----
+3. **Exploratory Data Analysis (EDA)** 📊  
+   - Distribution of **likes, saves, comments, and shares**.  
+   - Correlation between different metrics (**likes, impressions, saves, comments, follows**).  
+   - Analyzed **source contribution** to impressions.  
+   - Used **scatterplots and barplots** for key insights.  
+   - Created **heatmaps** for correlation visualization.  
+
+--- 
 
 ## 🛠️ Tools Used  
 - **Python** 🐍  
@@ -29,4 +32,3 @@ The main goal is to explore how different factors — **likes, impressions, save
 - **Matplotlib**, **Seaborn**, **Plotly** → Visualization  
 - **Jupyter Notebook** → Interactive analysis  
 
----
